@@ -1,6 +1,6 @@
 package say_hello_modules
 
 
-func SayHello()string  {
-	return "Hallo Ambatukam"
+func SayHello(name string)string  {
+	return "Hallo Ambatukam" + name 
 }
